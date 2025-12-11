@@ -1,5 +1,12 @@
-import { ThemeProvider } from "../Contexts/ThemeContext.jsx";
+// import { ThemeProvider } from "../Contexts/ThemeContext.jsx";
 
-export default function AppProviders({ children }) {
-  return <ThemeProvider>{children}</ThemeProvider>;
-}
+// 
+// export default function AppProviders({ children }) {
+//   return (
+//     <ThemeProvider>
+//       <AuthProvider>
+//         <UserProvider>{children}</UserProvider>
+//       </AuthProvider>
+//     </ThemeProvider>
+//   );
+// }
